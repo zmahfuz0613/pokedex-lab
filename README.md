@@ -25,7 +25,7 @@ Please turn in your submission by the deadline on your cohort calendar.
 
 ## Requirements
 
-1. Using Bootstrap, create a submit button called "Catch 'Em All!" that, when clicked, makes a request to the PokéApi and lists all Pokémon in the browser. Each character should appear in the DOM in a Bootstrap card and include the Pokémon's name and a bulleted list of abilities. 
+1. Using Bootstrap, create a submit button called "Catch 'Em All!" that, when clicked, makes a request to the PokéApi and lists all Pokémon in the browser. Each character should appear in the DOM in a Bootstrap card and include the Pokémon's name. 
 2. Add an input field/search bar with a submit button called "Search". When the user enters the name of the Pokémon and clicks submit, a request is made to the PokéApi and the approprate Pokémon's Bootstrap card will appear in the DOM.
 3. Add a Bootstrap dropdown menu that includes the following options: Name, ID, Ability, Location and Move.
 4. Focus the search based on the option the user selects for the dropdown menu. When the Search button is clicked, make a request to the PokéApi to search the Pokémon property that matches the selected option for what is in the input field.
