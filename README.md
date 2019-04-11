@@ -19,6 +19,7 @@ Starter code is provided for you, which includes some HTML and CSS. Bootstrap is
 1. Fork and clone this repository.
 2. Change into the new directory.
 3. Fulfill the listed requirements.
+4. Submit your solution with a pull request on this repository.
 
 Please turn in your submission by the deadline on your cohort calendar.
 
