@@ -1,49 +1,38 @@
 [![General Assembly Logo](https://camo.githubusercontent.com/1a91b05b8f4d44b5bbfb83abac2b0996d8e26c92/687474703a2f2f692e696d6775722e636f6d2f6b6538555354712e706e67)](https://generalassemb.ly/education/web-development-immersive)
 
-# Lab Template
+# Pokedex Lab
 
-Use this template to structure your READMEs for labs.
+You've already worked with the [PokéApi](https://pokeapi.co/) in class. Now it's time to use it on your own! Using the API, create a Pokédex where users can not only browse a list of Pokémon characters, but also search for their favorites!
 
-Be sure to include a recent [`LICENSE`](LICENSE) and Markdown linter
-configuration ([`.remarkrc`](.remarkrc)).
+Starter code is provided for you, which includes some HTML and CSS. Bootstrap is already linked in the `head` of the HTML boilerplate, and your `script` file is connected in the `body`.
+
+![Pokédex](img/screenshot1.png)
 
 ## Prerequisites
 
-* Topics with which developers should be familiar with.
-* Prerequisites are "just-in-time", so if I have a prerequisite that mentions
-  Sass, I would **not** need to include CSS as a prerequisite.
-* [Links to previous materials](https://www.youtube.com/watch?v=dQw4w9WgXcQ)
-  are often useful.
-* In a challenge, it is useful to link to reference material, such as talk
-  repositories.
+* DOM & Events
+* Bootstrap & Responsive Design
+* APIs & AJAX
 
 ## Instructions
 
 1. Fork and clone this repository.
-1. Change into the new directory.
-1. Install dependencies.
-1. Fulfill the listed requirements.
+2. Change into the new directory.
+3. Fulfill the listed requirements.
 
 Please turn in your submission by the deadline on your cohort calendar.
 
 ## Requirements
 
-Describe behavioral requirements as you'll be using them in tests. That is,
-list requirements in language that describes how the written code will be used,
-not how it will be written, with the exception of constraints you may wish to
-place on implementation. It's a good idea to include the below paragraph
-verbatim.
+1. Using Bootstrap, create a submit button called "Catch 'Em All!" that, when clicked, makes a request to the PokéApi and lists all Pokémon in the browser. Each character should appear in the DOM in a Bootstrap card and include the Pokémon's name and a bulleted list of abilities. 
+2. Add an input field/search bar with a submit button called "Search". When the user enters the name of the Pokémon and clicks submit, a request is made to the PokéApi and the approprate Pokémon's Bootstrap card will appear in the DOM.
+3. Add a Bootstrap dropdown menu that includes the following options: Name, ID, Ability, Location and Move.
+4. Focus the search based on the option the user selects for the dropdown menu. When the Search button is clicked, make a request to the PokéApi to search the Pokémon property that matches the selected option for what is in the input field.
+5. If the input does match any data from the PokéApi, create an alert that says "No matches! Try something else!"
 
 ## Bonus
 
-Bonuses are described after the requirements, if included. They should be worked
-on **only after** passing requirements.
-
-Less experienced students should be able to complete the base requirements in
-the alloted time for labs and in around 2 hours for homework; more experienced
-students should be to complete the bonus.
-
-Sometimes, we ask questions that promote thinking critically about code.
+Make your Pokédex responsive using the Bootsrap grid!
 
 ## Plagiarism
 
@@ -52,5 +41,5 @@ Take a moment to refamiliarize yourself with the [Plagiarism policy](https://git
 ## [License](LICENSE)
 
 1.  All content is licensed under a CC­BY­NC­SA 4.0 license.
-1.  All software code is licensed under GNU GPLv3. For commercial use or
+2.  All software code is licensed under GNU GPLv3. For commercial use or
     alternative licensing, please contact legal@ga.co.
