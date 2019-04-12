@@ -33,7 +33,7 @@ Please turn in your submission by the deadline on your cohort calendar.
 
 ## Bonus
 
-Make your Pokédex responsive using the Bootsrap grid!
+Make your Pokédex responsive using the Bootstrap grid!
 
 ## Plagiarism
 
