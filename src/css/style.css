@@ -1,16 +1,23 @@
-body {
-    background-image: url('https://wallpapercave.com/wp/wp3800310.jpg');
-    background-size: cover;
+main {
+  height: calc(100vh - 117px);
+  background-image: url("https://wallpapercave.com/wp/wp3800310.jpg");
+  background-color: #f6e652;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center left;
 }
 
 .nav {
-    padding: 15px;
+  padding: 15px;
 }
 
 img {
-    display: inline;
+  display: inline;
+  margin: 8px;
 }
 
 h1 {
-    display: inline;
+  display: inline;
+  align-self: center;
+  margin: 0;
 }
