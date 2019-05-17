@@ -1,5 +1,5 @@
 main {
-  height: calc(100vh - 117px);
+  height: calc(100vh - 108px);
   background-image: url("https://wallpapercave.com/wp/wp3800310.jpg");
   background-color: #f6e652;
   background-size: cover;
@@ -7,17 +7,19 @@ main {
   background-position: center left;
 }
 
-.nav {
-  padding: 15px;
+header {
+  width: 100vw;
+  height: 108px;
 }
 
-img {
-  display: inline;
-  margin: 8px;
+.navbar-brand {
+  font-size: 28px;
 }
 
-h1 {
-  display: inline;
-  align-self: center;
-  margin: 0;
+button {
+  font-size: 20px;
+}
+
+#results {
+  font-size: 18px;
 }
