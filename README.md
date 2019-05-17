@@ -37,6 +37,10 @@ Please turn in your submission by the deadline on your cohort calendar.
    user enters the name of the Pokémon and clicks submit, a request is made to
    the PokéApi and the approprate Pokémon's Bootstrap card will appear in the
    DOM.
+
+   The new results should clear out any existing results before displaying the
+   new results.
+
 3. Add a Bootstrap form dropdown that includes the following options: Name,
    Ability, Location and Move.
 4. Focus the search based on the option the user selects for the dropdown menu.
