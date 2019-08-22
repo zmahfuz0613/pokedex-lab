@@ -38,8 +38,8 @@ Please turn in your submission by the deadline on your cohort calendar.
    the PokéApi and the approprate Pokémon's name should appear in the
    `section#results` element. The new results should clear out any existing
    results before displaying the new results.
-3. Add a dropdown that includes the following options: Name, Ability, Location
-   and Move.
+3. Add a dropdown that includes the following options: Name, Move, Ability, and
+   Location.
 4. Focus the search based on the option the user selects for the dropdown menu.
    When the Search button is clicked, make a request to the PokéApi to search
    the Pokémon property that matches the selected option for what is in the
