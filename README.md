@@ -2,14 +2,12 @@
 
 # Pokedex Lab
 
-You've already worked with the [PokéApi](https://pokeapi.co/) in class. Now it's
-time to use it on your own! Using the API, create a Pokédex where users can not
+Using the [PokéApi](https://pokeapi.co/), create a Pokédex where users can not
 only browse a list of Pokémon characters, but also search for their favorites!
 
 Starter code is provided for you, which includes some HTML and CSS. The styling
-is provided by [Bootstrap](https://getbootstrap.com/docs/4.3/layout/grid/),
-which is already linked in the `head` of the HTML boilerplate, and your `script`
-file is connected in the `body`. When you finish the base requirements, look
+is provided by [React Bootstrap](https://react-bootstrap.github.io/getting-started/introduction),
+which is already linked. When you finish the base requirements, look
 into Bootstrap for the bonuses!
 
 ![Pokédex](img/screenshot2.png)
@@ -49,10 +47,10 @@ Please turn in your submission by the deadline on your cohort calendar.
 
 ## Bonus
 
-- Use [Bootstrap](https://getbootstrap.com/) to style your form input and
+- Use [React Bootstrap](https://react-bootstrap.github.io/getting-started/introduction) to style your form input and
   pokemon search results
 - Make your Pokédex responsive using the
-  [Bootstrap grid](https://getbootstrap.com/docs/4.3/layout/grid/)!
+  [Bootstrap grid](https://react-bootstrap.netlify.com/layout/grid/#grid)!
 - For the "Name" and "Catch 'Em All" searches, show the image of the pokemon in
   the results.
 
