@@ -16,7 +16,7 @@ into Bootstrap for the bonuses!
 
 ## Prerequisites
 
-- DOM & Events
+- React
 - APIs & AJAX
 
 ## Instructions
@@ -55,12 +55,6 @@ Please turn in your submission by the deadline on your cohort calendar.
   [Bootstrap grid](https://getbootstrap.com/docs/4.3/layout/grid/)!
 - For the "Name" and "Catch 'Em All" searches, show the image of the pokemon in
   the results.
-
-## Plagiarism
-
-Take a moment to refamiliarize yourself with the
-[Plagiarism policy](https://git.generalassemb.ly/DC-WDI/Administrative/blob/master/plagiarism.md).
-Plagiarized work will not be accepted.
 
 ## [License](LICENSE)
 
