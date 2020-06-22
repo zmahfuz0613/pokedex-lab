@@ -28,12 +28,9 @@ into Bootstrap for the bonuses!
 
 1. When the page loads, make a request to the PokéApi and then list all Pokémon in the browser. Each character
    should appear in the `section#results` element. Include the Pokémon's name.
-2. Add an input field/search bar with a submit button called "Search". When the
-   user enters the name of the Pokémon and clicks submit, a request is made to
-   the PokéApi and the approprate Pokémon's name should appear in the
-   `section#results` element. The new results should clear out any existing
-   results before displaying the new results.
-   **Hint**: Have a boolean attribute in state that decides whether the detail view or list view should show. Check out [conditional rendering](https://reactjs.org/docs/conditional-rendering.html) for more!
+2. Add an input field/search bar. Track what the user has typed in that input as an attribute in state.
+3. Add a submit button. When the user clicks submit a second API request should be made to retrieve all the information about the pokemon whose name was typed in the search bar.
+4. Display the information about the searched pokemon on the page *instead of* the list of pokemon. **Hint**: Search conditional rendering in React.
 
 
 ## Bonus
