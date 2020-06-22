@@ -19,34 +19,31 @@ into Bootstrap for the bonuses!
 
 ## Instructions
 
-1. Fork and clone this repository.
-2. Change into the new directory.
-3. Fulfill the listed requirements.
-4. Submit your solution with a pull request on this repository.
-
-Please turn in your submission by the deadline on your cohort calendar.
+1. Clone this repository
+1. cd `pokedex-lab/pokedex-starter`
+1. In the directory for the project, run `npm i`
+1. Install axios: `npm i axios`
 
 ## Requirements
 
-1. Create a submit button called "Catch 'Em All!" that, when clicked, makes a
-   request to the PokéApi and lists all Pokémon in the browser. Each character
-   should appear in `section#results` element include the Pokémon's name.
+1. When the page loads, make a request to the PokéApi and then list all Pokémon in the browser. Each character
+   should appear in the `section#results` element. Include the Pokémon's name.
 2. Add an input field/search bar with a submit button called "Search". When the
    user enters the name of the Pokémon and clicks submit, a request is made to
    the PokéApi and the approprate Pokémon's name should appear in the
    `section#results` element. The new results should clear out any existing
    results before displaying the new results.
-3. Add a dropdown that includes the following options: Name, Move, Ability, and
-   Location.
-4. Focus the search based on the option the user selects for the dropdown menu.
-   When the Search button is clicked, make a request to the PokéApi to search
-   the Pokémon property that matches the selected option for what is in the
-   input field.
-5. If the input does match any data from the PokéApi, create an alert that says
-   "No matches! Try something else!"
+   **Hint**: Have a boolean attribute in state that decides whether the detail view or list view should show. Check out [conditional rendering](https://reactjs.org/docs/conditional-rendering.html) for more!
+
 
 ## Bonus
 
+- Add a dropdown that includes the following options: Name, Move, Ability, and
+   Location. Focus the search based on the option the user selects for the dropdown menu.
+   When the Search button is clicked, make a request to the PokéApi to search
+   the Pokémon property that matches the selected option for what is in the
+   input field. If the input does match any data from the PokéApi, create an alert that says
+   "No matches! Try something else!"
 - Use [React Bootstrap](https://react-bootstrap.github.io/getting-started/introduction) to style your form input and
   pokemon search results
 - Make your Pokédex responsive using the
